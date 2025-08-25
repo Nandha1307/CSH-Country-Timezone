@@ -173,7 +173,7 @@ function insertBarSegments(){
     { before: 0,  spans: [3,3,1,1,1], labels: ["Mexico&CAM cluster","SAM Cluster","NAM Cluster","Brazil","UKI Cluster"] },
     { before: 9,  spans: [2,1,1,2,3], labels: ["Iberia Region","Belgium/Luxembourg","DACH Region","France&Italy Cluster","Nordics"] },
     { before: 18, spans: [2,2,1,1,1,2], labels: ["NEA Cluster","SEE Region","Saudi & Bahrain","Baltics","Gulf Cluster","Central Asia(Sub Cluster)"] },
-    { before: 27, spans: [1,2,3,1,2],   labels: ["India","Indonesia,Thailan,Vietnam","East Asian Countries","Japan& Korea","Pacific Cluster"] },
+    { before: 27, spans: [1,2,3,1,2],   labels: ["India","Indonesia,Thailand,Vietnam","East Asian Countries","Japan& Korea","Pacific Cluster"] },
   ];
 
   groups.forEach((g, gi) => {
@@ -208,3 +208,4 @@ updateAllCards();
 setInterval(updateAllCards, 1000);
 
 insertBarSegments();
+
